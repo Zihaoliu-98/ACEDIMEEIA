@@ -1,6 +1,6 @@
 # ACEDIMEEIA
 
-This repository serves as a place for documentation of Project ACDIMEEIA of OpenCI/Circular Economy challenge.
+This repository serves as a place for documentation of Project ACDIMEEIA
 
 Lisenced under CC4.0 and GNU3. For private and educational uses, please feel free to clone. 
 
