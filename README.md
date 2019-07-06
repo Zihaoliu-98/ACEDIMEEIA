@@ -4,7 +4,7 @@ This repository serves as a place for documentation of Project ACDIMEEIA
 
 Lisenced under CC4.0 and GNU3. For private and educational uses, please feel free to clone. 
 
-Commercial uses are prohibited unless otherwise authorized.
+TO AVOID ABUSE, PLEASE CONTACT THE AUTHOR BEFORE COMMERCIAL USE.
 
 Please enjoy the interesting (hopefully so) reports with preferably a cup of Weissbier and a large piece of Schweinshaxe/Eisbein.
 
