@@ -1,5 +1,7 @@
 # ACEDIMEEIA
 
+*To avoid potential plagiarism and keep confidentiality, critial documents will not be uploaded here before Jul.28
+
 This repository serves as a place for documentation of Project ACDIMEEIA
 
 Lisenced under CC-BY 4.0 and AGPL3.0. For private and educational uses, please feel free to clone. 
