@@ -2,7 +2,7 @@
 
 This repository serves as a place for documentation of Project ACDIMEEIA
 
-Lisenced under CC-BY-ND 4.0 and AGPL3.0. For private and educational uses, please feel free to clone. 
+Lisenced under CC-BY 4.0 and AGPL3.0. For private and educational uses, please feel free to clone. 
 
 TO AVOID ABUSE, PLEASE CONTACT THE AUTHOR BEFORE COMMERCIAL USE.
 
