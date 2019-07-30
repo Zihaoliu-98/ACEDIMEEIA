@@ -57,7 +57,7 @@ A4: Below is my original answer to my teammates
 It's very easy to write a app or use wordpress to do a website. They are fancy and look good, which I admit.
 But it makes no sense if the only thing you do is to develop a user interface or a website, without developing something to support it
 
-If you ask our programmers: 
+If you ask the programmers: 
 "so you said you use wifi/LoRa to transmit data, how was it technically achieved (packet/wireless)?"
 "what is the modulation scheme (OFDM)?"
 "how do you deal with noise and decoding errors (code scheme, decision tree, ML/MAP decoding)?"
