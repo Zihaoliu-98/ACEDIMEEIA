@@ -55,7 +55,7 @@ A4: Below is my original answer to my teammates
 
 "Because first of all, doing these don't actually make any difference in the real technical efforts.
 It's very easy to write a app or use wordpress to do a website. They are fancy and look good, which I admit.
-But it makes no sense if the only thing you do is to develop a user interface or a website, without developing something to support it
+But it makes no sense if the only thing you do is to develop a user interface or a website, without developing something to support it. Walmart without commodities is only a warehouse. It's the same thing.
 
 If you ask the programmers: 
 "so you said you use wifi/LoRa to transmit data, how was it technically achieved (packet/wireless)?"
