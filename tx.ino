@@ -84,7 +84,7 @@ void loop() {
   /*this is to demonstrate how DF-24 system works for local stations*/
   /*we transmit the data from the luminosity sensor as an example*/
   String gws = String(64, BIN);
-  String gwd = String("100000000");
+  String gwd = String("001111000");
   String gcw = String("000100");
   /*we use a flag here. If it is 0, then the wind direction is in magnetic heading, if 1 then it is in true heading*/
   String gwdflg = String("1");
