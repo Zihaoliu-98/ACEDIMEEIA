@@ -3,49 +3,81 @@ I've encountered some really weird and kind of annoying questions up to now and 
 
 Q1: Why don't you actually build your own PCB when you claim that you made a "terminator-sort" of tough device?
 
-A1: Because to get a custom PCB, you need to generate several files, negotiate with the factory, do verification and wait to get a position on the mother PCB for your own design. Meanwhile, getting a stensil and wait for a small number of components is really painful. Takes about four weeks at least.
+A1: Because to get a custom PCB, you need to generate several files, negotiate with the factory, do verification and wait to get a position on the mother PCB for your own design. 
+Meanwhile, getting a stensil and wait for a small number of components is really painful. 
+Takes about four weeks at least.
 
 
 Q2: Why don't you use sensors onboard the phone? They don't cost you anything.
 
 A2: If you are a trained EE student, you will know that the drift on MEMS/NEMS sensor is a huge problem. 
-You can only get a instant value. If you run it for about two minutes, you will find that the reading can be deviated by 300% (from my personal experience).
+You can only get a instant value. 
+If you run it for about two minutes, you will find that the reading can be deviated by 300% (from my personal experience).
 
-Besides, there is no "free" sensor on board a phone. They serve different purposes and their locations are correspondingly optimized.
-I WOULD NOT say it is stupid to use your mobile sensor for long-term monitoring. But at least i have to say it is not wise to do so.
+Besides, there is no "free" sensor on board a phone. 
+They serve different purposes and their locations are correspondingly optimized.
+I WOULD NOT say it is stupid to use your mobile sensor for long-term monitoring. 
+But at least i have to say it is not wise to do so.
 
 
 Q3: Why do you claim that development board and robots are vulnerable? How do you prove it?
 
-A3: Please, really, please come back to say it to me after you've killed several devices with real electrical design. I've used a lot of boards like STM, ATMEGA, ESP, Raspberry Pi and some else, even including FPGA board.
+A3: Please, really, please come back to say it to me after you've killed several devices with real electrical design. 
+I've used a lot of boards like STM, ATMEGA, ESP, Raspberry Pi and some else, even including FPGA board.
 
 The most common problem is a short between pins that killed your power IC, like AMS1117 and LM317.
 Besides, physically knocking off some resistors can cause impedance mismatch. It can cause reflection and ruin your SNR.
-Sometimes loose connections can cause a surge/arc in your circuit. Then, boom, congratuations, you fried up you entire circuit and all fragile components.
-If you use a tantalum capacitor, then sometimes it can put you in a physical danger. If you use supercap, then it can even put you into a physical death
+
+Sometimes loose connections can cause a surge/arc in your circuit. 
+Then, boom, congratuations, you fried up you entire circuit and all fragile components.
+
+If you use a tantalum capacitor, then sometimes it can put you in a physical danger. 
+If you use supercap, then it can even put you into a physical death
+
 If you use multilayer board and blind vias, then exposure to dust can cause a misconnection that you will never be able to debug
-If you work under high frequency like several gigahertz but you don't trim the edge of you circuit, then you will suffer from signal leakage
-If you don't put signal pairs in parallel and insulate different zones with ground plane, then the signal will be very noisy.
 
-These are really painful experience accummulated by doing real design, f-up the things, debugging until sunrise, and only then you know it.
+If you work under high frequency like several gigahertz but you don't trim the edge of you circuit
+then you will suffer from signal leakage
+
+If you don't put signal pairs in parallel and insulate different zones with ground plane
+then the signal will be very noisy.
+
+These are really painful experience accummulated by:
+doing real design, f-up the things, debugging until sunrise, and only then you know it.
 
 
-Q4: Why don't we setup a mobile application or website for demonstrating the project? (this is the question from my team member)
+Q4: Why don't we setup a mobile application or website for demonstrating the project? 
+(this is the question from my team member)
 
 A4: Below is my original answer to my teammates
 
 "Because first of all, doing these don't actually make any difference in the real technical efforts.
 It's very easy to write a app or use wordpress to do a website. They are fancy and look good, which I admit.
-But if you examine the solutions and source code those people provided, most of what they did is to simply use example codes offered in the IDE.
-If you ask them: "so you said you use wifi/LoRa to transmit data, how was it technically achieved (packet/wireless)?", "what is the modulation scheme (OFDM)?", "how do you deal with noise and decoding errors (code scheme, decision tree, ML/MAP decoding)?"
+But if you examine the solutions and source code those people provided
+most of what they did is to simply use example codes offered in the IDE.
 
-I spent one and half a month to investigate all technical details out there of ADS-B, LoRa, and some other fundamental hardware communication protocols and wrote 10000+ word reports that can pursuade real engineers and businessman.
+If you ask them: 
+"so you said you use wifi/LoRa to transmit data, how was it technically achieved (packet/wireless)?"
+"what is the modulation scheme (OFDM)?"
+"how do you deal with noise and decoding errors (code scheme, decision tree, ML/MAP decoding)?"
+Most of them don't know anyone of it, definitely
 
-That's the difference. It is the difference in attitude and how seriously we treat this challenge.
+I spent one and half a month to investigate all technical details out there of ADS-B, LoRa, and some other fundamental hardware communication protocols 
+and wrote 10000+ word reports that can pursuade real engineers and businessman.
 
-We do need someone who can dream big, but for OpenCI challenge, what we really need is someone who can see and do small to really do something workable and technological, rather than someone who provides fancy slides but no real things.
+That's the difference. 
+It is the difference in attitude and how seriously we treat this challenge.
+
+We do need someone who can dream big
+but for OpenCI challenge
+what we really need is someone who can see and do small to really do something workable and technological
+rather than someone who provides fancy slides but no real things.
 
 Second, the idea of the entire project is to ensure that information can be delivered without smartphone and mobile network.
 The description and requirement of this challenge is that we expect updates will only be available several times a day.
-This means you cannot put your screen, website and mobile app in the background and running for the entire day. That's too much a waste of battery life.
-For our design, it automatically manages the power and display the information only when it is available, meanwhile still being able to listen to the information everytime. Putting the data onto app or website is exactly against our purpose"
+This means you cannot put your screen, website and mobile app in the background and running for the entire day. 
+That's too much a waste of battery life.
+
+For our design, it automatically manages the power and display the information only when it is available
+meanwhile still being able to listen to the information everytime
+Putting the data onto app or website is exactly against our purpose"
