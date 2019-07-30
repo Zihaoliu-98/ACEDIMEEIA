@@ -1,10 +1,12 @@
-I've encountered some really weird and kind of annoying questions up to now and decided that I should set up a FAQ page for project AECDIMEEIA. Please read through the two reports before reading this document
+I've encountered some really weird and kind of annoying questions up to now.
+So I decided that I should set up a FAQ page for project AECDIMEEIA. 
+Please read through the two reports before reading this document
 
 
 Q1: Why don't you actually build your own PCB when you claim that you made a "terminator-sort" of tough device?
 
 A1: Because to get a custom PCB, you need to generate several files, negotiate with the factory, do verification and wait to get a position on the mother PCB for your own design. 
-Meanwhile, getting a stensil and wait for a small number of components is really painful. 
+Meanwhile, getting a stensil and wait for a small number but large variety components is really painful. 
 Takes about four weeks at least.
 
 
