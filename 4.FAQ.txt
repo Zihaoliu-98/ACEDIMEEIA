@@ -1,18 +1,21 @@
 I've encountered some really weird questions up to now and deceided that I should set up a FAQ page for project AECDIMEEIA.
 Please read through the two reports before reading this document
 
+
 Q1: Why don't you actually build your own PCB when you claim that you made a "terminator-sort" of tough device?
 
 A1: Because to get a custom PCB, you need to generate several files, negotiate with the factory, do verification and wait to get a position on the mother PCB for your won design.
 Meanwhile, getting a stensil and wait for a small number of components is really painful. Takes about four weeks at least.
 
-Q2: Why don't you use sensors on board the phone? They don't cost you anything.
+
+Q2: Why don't you use sensors onboard the phone? They don't cost you anything.
 
 A2: If you are a trained EE student, you will know that the drift on MEMS/NEMS sensor is a huge problem. 
 You can only get a instant value. If you run it for about two minutes, you will find that the reading can be deviated by 300% (from my personal experience).
 Besides, there is no "free" sensor on board a phone. They serve different purposes and their locations are correspondingly optimized.
 I WOULD NOT say it is a stupid idea to use your mobile sensor for long-term monitoring
 But at least i have to say it is not wise to do so.
+
 
 Q3: Why do you claim that development board and robots are vulnerable? How do you prove it?
 
@@ -25,11 +28,12 @@ If you use a tantalum capacitor, then sometimes it can put you in a physical dan
 If you use supercap, then it can put you into a physical death
 If you use multilayer board and blind vias, then exposure to dust can cause a misconnection that you will never be able to debug
 If you work under high frequency like several gigahertz but you don't trim the edge of you circuit, then you will suffer from signal leakage
-If you don't put signal pairs in parallel and insulate different zones with ground palne, then the signal will be very noisy.
+If you don't put signal pairs in parallel and insulate different zones with ground plane, then the signal will be very noisy.
 
-These are really painful experience accummulated by doing real design, f-up the things, debugging until subrise, and then you know it.
+These are really painful experience accummulated by doing real design, f-up the things, debugging until sunrise, and only then you know it.
 
-Q4: Why don't you setup a mobile application or website for demonstrating your project? (this is the question from my team member)
+
+Q4: Why don't you setup a mobile application or website for demonstrating the project? (this is the question from my team member)
 
 A4: Below is my original answer to my teammates
 "Because first of all, doing these don't actually make any difference in the real technical efforts.
@@ -41,7 +45,7 @@ If you ask them:
 "how do you deal with noise and decoding errors (code scheme, decision tree, ML/MAP decoding)?"
 I spent one and half a month to investigate all technical details out there of ADS-B, LoRa, and some other fundamental hardware communication protocols and provided something that can pursuade real engineers
 That's the difference.
-We do need someone who can dream big, but for OpenCI challenge, what we really need is someone who can see and do small.
+We do need someone who can dream big, but for OpenCI challenge, what we really need is to really do something workable, technological and someone who can see and do small, rather than someone who provides fancy slides but no real things.
 
 Second, the idea of the entire project is to ensure that information can be delivered without smartphone and mobile network.
 The description and requirement of this challenge is that we expect updates will only be available several times a day.
