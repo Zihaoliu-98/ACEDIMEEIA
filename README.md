@@ -14,6 +14,8 @@ Well...please give some patience to read everything until the end. Trust me, it'
 
 At least you will feel the haxe and the bier being the best ever in your life XD
 
+In Chinese, we have a proverb 
+
 Anyway, have a nice day my friend.
 
 Auf Wiedersehen
