@@ -1,7 +1,5 @@
 # AECDIMEEIA
 
-# AECDIMEEIA
-
 As the old tale said, the brightest peak is the dirtiest place.
 
 WE as a team have participated the 2019 challenge led by office of information and communications technology of the United Nations (UN), which is co-led by Egypt and UK government and is supported by UNDP.
