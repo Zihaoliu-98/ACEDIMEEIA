@@ -2,7 +2,7 @@
 
 As the old tale said, the brightest peak is the dirtiest place.
 
-WE as a team have participated in the 2019 challenge led by office of information and communications technology of the United Nations (UN), which is co-led by Egypt and UK government and is supported by UNDP.
+WE as a team have participated in the 2019 OpenCI challenge led by office of information and communications technology of the United Nations (UN), which is co-led by Egypt and UK government and is supported by UNDP.
 
 we thought UN is really doing things seriously, but the fact is, we are wrong.
 
